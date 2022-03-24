@@ -69,6 +69,11 @@ h2{
     text-align: center; 
    font-size: 16pt;
   }
+  p{
+       
+    font-size: 50pt; 
+        
+}
 
 .container p {
     font-weight: 557;
@@ -84,7 +89,7 @@ h2{
 }
 @media(max-width:1000px){
     .container{  
-        display: flex;
+        display: contents;
         flex-direction: column;
        justify-content: center;
     }
@@ -98,11 +103,7 @@ h2{
       margin-top: 50px;
     
     }
-    .word p{
-        text-align: center; 
-        font-size: 22pt; 
-            
-    }
+      
     .container div p {
         margin: 0 auto;
         width: 790px;
