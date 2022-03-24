@@ -65,23 +65,68 @@ img{
    
 }
  
+h2{
+    text-align: center; 
+   font-size: 16pt;
+  }
 
 .container p {
     font-weight: 557;
+    font-size: 15pt;
    
+}
+.word{
+    font-family: 'Poppins';
+    font-size: 45%;
+    align-items: center;
+}.img{
+    font-size: 66%;
 }
 @media(max-width:1000px){
     .container{  
         display: flex;
         flex-direction: column;
+       justify-content: center;
+    }
+    .about h2 {
+        font-size: 40pt;
+        
+    }
+    .word h2{
+      text-align: center; 
+      font-size: 13pt; 
+      margin-top: 50px;
+    
+    }
+    .container div p {
+        margin: 0 auto;
+        width: 790px;
+        text-align: justify;
+        
+    }
+
+    .img1{
+        width: 350px;
+        background-color: rgb(230, 191, 155);
+        border-radius: 100%;
+        padding: 5px;
+         
+    }
+    .about{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Poppins';
+        font-size: 30pt;
+    }
+
+    .container img {
+        width: 200px;
+        justify-content: center;
+        
+        
     }
 }
 
-.word{
-    font-family: 'Poppins';
-    font-size: 78%;
-    align-items: center;
-}
-.img{
-    font-size: 66%;
-}
+
