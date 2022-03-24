@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+    font-family: 'Poppins';
+}
+body{
+	background-color: #eec9ed;
+	height: 100%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+}
+label {
+    font-weight: 800;
+    text-align: center;
+}
+.img1{
+    width: 117px;
+    background-color: rgb(230, 191, 155);
+    border-radius: 100%;
+    padding: 5px;
+     
+}
+.about{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins';
+}
+img{
+    width: 30px; 
+}
+ .apresentação div{
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .container{  
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.container div p {
+    margin: 0 auto;
+    width: 400px;
+    text-align: justify;
+
+}
+.container img {
+    width: 110px;
+
+    margin-left: 45%;
+   
+}
+ 
+
+.container p {
+    font-weight: 557;
+   
+}
+@media(max-width:1000px){
+    .container{  
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.word{
+    font-family: 'Poppins';
+    font-size: 78%;
+    align-items: center;
+}
+.img{
+    font-size: 66%;
+}
