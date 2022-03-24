@@ -94,9 +94,14 @@ h2{
     }
     .word h2{
       text-align: center; 
-      font-size: 23pt; 
+      font-size: 20pt; 
       margin-top: 50px;
     
+    }
+    .word p{
+        text-align: center; 
+        font-size: 22pt; 
+            
     }
     .container div p {
         margin: 0 auto;
